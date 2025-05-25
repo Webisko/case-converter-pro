@@ -1,22 +1,26 @@
-# Case Converter Pro v2.3 - Rozszerzenie Firefox
+# Case Converter Pro v2.3 - Firefox Extension
 
-Profesjonalne rozszerzenie Firefox Developer Edition do konwersji wielkości liter i formatów programistycznych z obsługą polskich znaków i zaawansowanymi skrótami klawiszowymi.
+Professional Firefox Developer Edition extension for text case conversion and programming formats with Polish character support and advanced keyboard shortcuts.
 
-> **🚀 Gotowe do publikacji w Firefox Add-ons Store!** 
-> Rozszerzenie spełnia wszystkie wymagania Mozilla i jest przygotowane do dystrybucji w oficjalnym sklepie Firefox Add-ons.
+> **🚀 Ready for Firefox Add-ons Store publication!** 
+> Extension meets all Mozilla requirements and is prepared for distribution in the official Firefox Add-ons store.
 
-## 🆕 Nowości w wersji 2.3
+---
 
-### ⌨️ Zaawansowane skróty klawiszowe
-- **Podstawowe konwersje (Ctrl+Shift+...):**
-  - `U` - WIELKIE LITERY
-  - `L` - małe litery
-  - `T` - Każde Słowo
-  - `S` - Zdaniowa
-  - `A` - nApRzEmIeNnE
-  - `I` - oDWRóCONE
+**📖 [Wersja Polska](README_PL.md) | 🌍 English Version**
 
-- **Formaty programistyczne (Ctrl+Alt+...):**
+## 🆕 What's New in Version 2.3
+
+### ⌨️ Advanced Keyboard Shortcuts
+- **Basic conversions (Ctrl+Shift+...):**
+  - `U` - UPPERCASE
+  - `L` - lowercase
+  - `T` - Title Case
+  - `S` - Sentence case
+  - `A` - aLtErNaTiNg CaSe
+  - `I` - iNVERTED cASE
+
+- **Programming formats (Ctrl+Alt+...):**
   - `C` - camelCase
   - `P` - PascalCase
   - `N` - snake_case
@@ -24,173 +28,175 @@ Profesjonalne rozszerzenie Firefox Developer Edition do konwersji wielkości lit
   - `O` - CONSTANT_CASE
   - `D` - dot.case
 
-- **Funkcje specjalne:**
-  - `Ctrl+Z` - Cofnij ostatnią zmianę
-  - `Ctrl+Shift+F` - Cykliczne przełączanie formatów
-  - `Ctrl+Shift+G` - Inteligentne sugerowanie formatu
-  - `Ctrl+Shift+H` - Pokaż pomoc dla skrótów
+- **Special functions:**
+  - `Ctrl+Z` - Undo last change
+  - `Ctrl+Shift+F` - Cycle through formats
+  - `Ctrl+Shift+G` - Smart format suggestion
+  - `Ctrl+Shift+H` - Show shortcuts help
 
-### 🌍 Rozszerzone wsparcie językowe
-- **7 języków interfejsu:** Polski (PL), English (EN), Deutsch (DE), Français (FR), Español (ES), Italiano (IT), Português (PT)
-- **Automatyczne wykrywanie języka** na podstawie ustawień przeglądarki
-- **Domyślny język:** English (fallback dla nieobsługiwanych języków)
+### 🌍 Extended Language Support
+- **7 interface languages:** Polish (PL), English (EN), German (DE), French (FR), Spanish (ES), Italian (IT), Portuguese (PT)
+- **Automatic language detection** based on browser settings
+- **Default language:** English (fallback for unsupported languages)
 
-### 🎨 Ulepszone powiadomienia
-- **Płynne animacje** - slide-in z dolnego rogu ekranu
-- **Nowoczesny design** - lepsze fonty i kolory
-- **Pozycja bottom-right** - mniej inwazyjne dla użytkownika
+### 🎨 Enhanced Notifications
+- **Smooth animations** - slide-in from bottom-right corner
+- **Modern design** - improved fonts and colors
+- **Bottom-right position** - less intrusive for users
 
-## Wszystkie funkcje (poprzednie wersje)
+## All Features (Previous Versions)
 
-### ↶ Cofnięcie zmian (Ctrl+Z)
-- **Automatyczne zapisywanie** do 10 ostatnich konwersji
-- **Skrót klawiszowy Ctrl+Z** dla szybkiego cofnięcia
-- **Opcja menu kontekstowego** "Cofnij ostatnią zmianę"
-- **Inteligentne rozpoznawanie** aktywnych pól edytowalnych
+### ↶ Undo Changes (Ctrl+Z)
+- **Automatic saving** of up to 10 recent conversions
+- **Ctrl+Z keyboard shortcut** for quick undo
+- **Context menu option** "Undo last change"
+- **Smart detection** of active editable fields
 
-### 🌐 Wielojęzyczność
-- **7 języków interfejsu:** Polski, English, Deutsch, Français, Español, Italiano, Português
-- **Automatyczne wykrywanie języka** na podstawie ustawień przeglądarki
-- **Zlokalizowane komunikaty** i powiadomienia
-- **Domyślny język:** English (fallback dla nieobsługiwanych języków)
+### 🌐 Multilingual Support
+- **7 interface languages:** Polish, English, German, French, Spanish, Italian, Portuguese
+- **Automatic language detection** based on browser settings
+- **Localized messages** and notifications
+- **Default language:** English (fallback for unsupported languages)
 
-## Funkcjonalność
+## Features
 
-### 🔤 Zmiana wielkości liter
-- **WIELKIE LITERY** - konwersja całego tekstu na wielkie litery
-- **małe litery** - konwersja całego tekstu na małe litery
-- **Każde Słowo Wielką Literą** - format tytułowy
-- **Zdaniowa wielka litera** - tylko pierwsza litera wielka
-- **nApRzEmIeNnE lItErY** - naprzemienne małe i wielkie litery
-- **oDWRÓCONA wIELKOŚĆ** - odwrócenie aktualnych wielkości liter
+### 🔤 Case Conversion
+- **UPPERCASE** - convert entire text to uppercase
+- **lowercase** - convert entire text to lowercase
+- **Title Case** - capitalize first letter of each word
+- **Sentence case** - only first letter capitalized
+- **aLtErNaTiNg CaSe** - alternating lowercase and uppercase letters
+- **iNVERTED cASE** - invert current letter cases
 
-### 💻 Dla programistów
-- **camelCase** - dla zmiennych JavaScript/Java
-- **PascalCase** - dla klas i konstruktorów
-- **snake_case** - dla Python i baz danych
-- **kebab-case** - dla CSS i URL-i
-- **CONSTANT_CASE** - dla stałych
-- **dot.case** - format z kropkami
+### 💻 For Developers
+- **camelCase** - for JavaScript/Java variables
+- **PascalCase** - for classes and constructors
+- **snake_case** - for Python and databases
+- **kebab-case** - for CSS and URLs
+- **CONSTANT_CASE** - for constants
+- **dot.case** - dot-separated format
 
-### Dostęp przez menu kontekstowe
-- **Zaznacz tekst** prawym przyciskiem myszy
-- **Automatyczne zastąpienie** w edytowalnych polach
-- **Kopiowanie do schowka** dla nieEdytowalnych obszarów
-- **Obsługa polskich znaków** we wszystkich formatach
+### Access via Context Menu
+- **Select text** and right-click
+- **Automatic replacement** in editable fields
+- **Copy to clipboard** for non-editable areas
+- **Polish character support** in all formats
 
-## Przykłady użycia
+## Usage Examples
 
-### Zmiana wielkości liter
-| Tekst wejściowy | Wynik |
-|----------------|-------|
-| `Przykładowy Tekst` | **WIELKIE:** `PRZYKŁADOWY TEKST` |
-| `Przykładowy Tekst` | **małe:** `przykładowy tekst` |
-| `przykładowy tekst` | **Każde Słowo:** `Przykładowy Tekst` |
-| `PRZYKŁADOWY TEKST` | **Zdaniowa:** `Przykładowy tekst` |
-| `Przykładowy Tekst` | **nApRzEmIeNnE:** `pRzYkŁaDoWy tEkSt` |
-| `Przykładowy Tekst` | **oDWRÓCONA:** `pRZYKŁADOWY tEKST` |
+### Case Conversion
+| Input Text | Result |
+|------------|--------|
+| `Example Text` | **UPPERCASE:** `EXAMPLE TEXT` |
+| `Example Text` | **lowercase:** `example text` |
+| `example text` | **Title Case:** `Example Text` |
+| `EXAMPLE TEXT` | **Sentence case:** `Example text` |
+| `Example Text` | **aLtErNaTiNg:** `eXaMpLe tExT` |
+| `Example Text` | **iNVERTED:** `eXAMPLE tEXT` |
 
-### Formaty programistyczne (z polskimi znakami)
-| Tekst wejściowy | Wynik |
-|----------------|-------|
-| `Moja Funkcja JavaScript ąćęłńóśźż` | **camelCase:** `mojaFunkcjaJavaScriptAcelnoszz` |
-| `moja funkcja javascript` | **PascalCase:** `MojaFunkcjaJavascript` |
-| `Moja Funkcja JavaScript` | **snake_case:** `moja_funkcja_java_script` |
-| `Moja Funkcja JavaScript` | **kebab-case:** `moja-funkcja-java-script` |
-| `moja funkcja` | **CONSTANT_CASE:** `MOJA_FUNKCJA` |
-| `moja funkcja` | **dot.case:** `moja.funkcja` |
+### Programming Formats (with Polish characters)
+| Input Text | Result |
+|------------|--------|
+| `My JavaScript Function ąćęłńóśźż` | **camelCase:** `myJavaScriptFunctionAcelnoszz` |
+| `my javascript function` | **PascalCase:** `MyJavascriptFunction` |
+| `My JavaScript Function` | **snake_case:** `my_java_script_function` |
+| `My JavaScript Function` | **kebab-case:** `my-java-script-function` |
+| `my function` | **CONSTANT_CASE:** `MY_FUNCTION` |
+| `my function` | **dot.case:** `my.function` |
 
-## Instalacja
+## Installation
 
-### Instalacja w trybie deweloperskim (Firefox Developer Edition)
+### Development Installation (Firefox Developer Edition)
 
-1. Otwórz Firefox Developer Edition
-2. Wpisz w pasku adresu: `about:debugging#/runtime/this-firefox`
-3. Kliknij **"Załaduj tymczasowy dodatek..."**
-4. Wybierz plik `manifest.json` z tego folderu
-5. Rozszerzenie zostanie załadowane i będzie aktywne do czasu zamknięcia przeglądarki
+1. Open Firefox Developer Edition
+2. Type in address bar: `about:debugging#/runtime/this-firefox`
+3. Click **"Load Temporary Add-on..."**
+4. Select the `manifest.json` file from this folder
+5. Extension will be loaded and active until browser is closed
 
-### Instalacja stała (wymagane podpisanie)
+### Permanent Installation (requires signing)
 
-Aby rozszerzenie działało na stałe, musi być podpisane przez Mozilla. Można to zrobić poprzez:
-1. Publikację w Firefox Add-ons Store
-2. Użycie self-distribution z podpisem deweloperskim
+For permanent extension functionality, it must be signed by Mozilla through:
+1. Publication in Firefox Add-ons Store
+2. Self-distribution with developer signature
 
-## Użytkowanie
+## Usage
 
-1. **Zaznacz tekst** na dowolnej stronie internetowej
-2. **Kliknij prawym przyciskiem myszy** na zaznaczonym tekście
-3. Wybierz **"Case Converter Pro"** z menu kontekstowego
-4. Wybierz kategorię i opcję konwersji:
+1. **Select text** on any webpage
+2. **Right-click** on selected text
+3. Choose **"Case Converter Pro"** from context menu
+4. Select category and conversion option:
 
-### 🔤 Zmiana wielkości liter
-- **WIELKIE LITERY, małe litery, Każde Słowo Wielką, Zdaniowa wielka**
-- **nApRzEmIeNnE lItErY, oDWRÓCONA wIELKOŚĆ**
+### 🔤 Case Conversion
+- **UPPERCASE, lowercase, Title Case, Sentence case**
+- **aLtErNaTiNg CaSe, iNVERTED cASE**
 
-### 💻 Dla programistów
+### 💻 For Developers
 - **camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case**
 
-### Zachowanie rozszerzenia:
+### Extension Behavior:
 
-- **W polach edytowalnych** (input, textarea, contenteditable): tekst zostanie automatycznie zastąpiony
-- **W nieEdytowalnych obszarach**: skonwertowany tekst zostanie skopiowany do schowka
-- **Powiadomienie**: pojawi się komunikat potwierdzający konwersję
+- **In editable fields** (input, textarea, contenteditable): text will be automatically replaced
+- **In non-editable areas**: converted text will be copied to clipboard
+- **Notification**: confirmation message will appear
 
-### 🔄 Cofnięcie zmian (Ctrl+Z)
-- **Skrót klawiszowy:** Naciśnij `Ctrl+Z` po konwersji
-- **Menu kontekstowe:** Wybierz "↶ Cofnij ostatnią zmianę"
-- **Automatyczne zapisywanie:** Do 10 ostatnich operacji
-- **Inteligentne wykrywanie:** Działa tylko gdy poprzednia zmiana dotyczyła aktualnego pola
+### 🔄 Undo Changes (Ctrl+Z)
+- **Keyboard shortcut:** Press `Ctrl+Z` after conversion
+- **Context menu:** Select "↶ Undo last change"
+- **Automatic saving:** Up to 10 recent operations
+- **Smart detection:** Only works when previous change was in current field
 
-### 🌍 Zmiana języka interfejsu
-Rozszerzenie automatycznie wykrywa język na podstawie ustawień przeglądarki Firefox:
-- Wejdź do `about:preferences#general`
-- W sekcji "Language" ustaw preferowany język
-- Dostępne języki: Polski, English, Deutsch, Français, Español
-- Restart przeglądarki może być wymagany
+### 🌍 Change Interface Language
+Extension automatically detects language based on Firefox browser settings:
+- Go to `about:preferences#general`
+- In "Language" section set preferred language
+- Available languages: Polish, English, German, French, Spanish, Italian, Portuguese
+- Browser restart may be required
 
-## Testowanie
+## Testing
 
-Otwórz plik `test.html` w przeglądarce, aby przetestować wszystkie funkcje rozszerzenia z różnymi typami pól tekstowych i formatami.
+Open the `test.html` file in your browser to test all extension features with different text field types and formats.
 
-## Struktura projektu
+## Project Structure
 
 ```
 firefox-text-converter/
-├── manifest.json       # Konfiguracja rozszerzenia
-├── background.js       # Script w tle - obsługa menu kontekstowego
-├── content.js          # Script treści - konwersja tekstu na stronie
-├── _locales/          # Pliki lokalizacji (PL, EN, DE, FR, ES)
-│   ├── pl/messages.json    # Polski
+├── manifest.json       # Extension configuration
+├── background.js       # Background script - context menu handling
+├── content.js          # Content script - text conversion on page
+├── _locales/          # Localization files (PL, EN, DE, FR, ES, IT, PT)
+│   ├── pl/messages.json    # Polish
 │   ├── en/messages.json    # English
-│   ├── de/messages.json    # Deutsch
-│   ├── fr/messages.json    # Français
-│   └── es/messages.json    # Español
-├── icons/              # Ikony rozszerzenia
-├── README.md           # Ten plik
-└── package.json        # Konfiguracja npm (opcjonalna)
+│   ├── de/messages.json    # German
+│   ├── fr/messages.json    # French
+│   ├── es/messages.json    # Spanish
+│   ├── it/messages.json    # Italian
+│   └── pt/messages.json    # Portuguese
+├── icons/              # Extension icons
+├── README.md           # This file
+└── package.json        # npm configuration (optional)
 ```
 
-## Rozwój
+## Development
 
-### Wymagania
+### Requirements
 - Firefox Developer Edition
-- Podstawowa znajomość JavaScript
+- Basic JavaScript knowledge
 
-### Testowanie
-1. Załaduj rozszerzenie w trybie deweloperskim
-2. Odwiedź dowolną stronę internetową
-3. Zaznacz tekst i przetestuj funkcjonalność menu kontekstowego
+### Testing
+1. Load extension in development mode
+2. Visit any website
+3. Select text and test context menu functionality
 
-### Debugowanie
-- Otwórz **Developer Tools** (F12)
-- Przejdź do zakładki **Console** aby zobaczyć ewentualne błędy
-- Użyj `about:debugging` do inspekcji rozszerzenia
+### Debugging
+- Open **Developer Tools** (F12)
+- Go to **Console** tab to see potential errors
+- Use `about:debugging` to inspect extension
 
-## Licencja
+## License
 
-MIT License - możesz swobodnie używać i modyfikować kod.
+MIT License - you can freely use and modify the code.
 
-## Autor
+## Author
 
-Stworzone dla potrzeb konwersji tekstu na format URL-friendly z obsługą polskich znaków.
+Created for text conversion to URL-friendly format with Polish character support.
