@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Test - Case Converter Pro Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .language-nav {
+            text-align: center;
+            padding: 10px;
+            background: #f0f8ff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        .test-box {
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            background-color: yellow;
+            padding: 2px 4px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .editable {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            min-height: 50px;
+            background: white;
+        }
+        .results {
+            background: #e8f5e8;
+            border: 1px solid #4CAF50;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-nav">
+        📖 <a href="quick-test_PL.html">Wersja Polska</a> | 🌍 <strong>English Version</strong>
+    </div>
+    
+    <h1>🧪 Quick Test - Case Converter Pro v2.3</h1>
+    
+    <div class="test-box">
+        <h2>🆕 New features in version 2.3:</h2>
+        <ul>
+            <li>✅ <strong>Advanced keyboard shortcuts</strong> - quick conversions via Ctrl+Shift/Alt+key</li>
+            <li>✅ <strong>Format cycling</strong> - Ctrl+Shift+F</li>
+            <li>✅ <strong>Smart suggestions</strong> - Ctrl+Shift+G</li>
+            <li>✅ <strong>Shortcuts help</strong> - Ctrl+Shift+H</li>
+            <li>✅ <strong>7-language support</strong> - added Italian (IT) and Portuguese (PT)</li>
+            <li>✅ <strong>Enhanced notification animations</strong> - smooth animations from bottom corner</li>
+        </ul>
+        
+        <h3>⌨️ New keyboard shortcuts:</h3>
+        <div style="background: #f0f8ff; padding: 15px; border-radius: 6px; margin: 10px 0;">
+            <strong>📝 Basic (Ctrl+Shift+...):</strong><br>
+            • U - UPPERCASE | L - lowercase | T - Title Case | S - Sentence case<br>
+            • A - aLtErNaTiNg | I - iNVERTED<br><br>
+            
+            <strong>💻 Programming (Ctrl+Alt+...):</strong><br>
+            • C - camelCase | P - PascalCase | N - snake_case<br>
+            • K - kebab-case | O - CONSTANT_CASE | D - dot.case<br><br>
+            
+            <strong>🚀 Special:</strong><br>
+            • Ctrl+Shift+F - Cycle formats | Ctrl+Shift+G - Smart suggestions<br>
+            • Ctrl+Shift+H - Help | Ctrl+Z - Undo
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>🆕 All features (previous versions):</h2>
+        <ul>
+            <li>✅ <strong>Undo changes (Ctrl+Z)</strong> - ability to undo last 10 conversions</li>
+            <li>✅ <strong>Multilingual support</strong> - 7 languages (PL, EN, DE, FR, ES, IT, PT)</li>
+            <li>✅ <strong>Automatic language detection</strong> - based on browser settings</li>
+            <li>✅ <strong>Enhanced notifications</strong> - localized messages in bottom-right corner</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>1. Basic case conversion test</h2>
+        <p>Select this text: <span class="highlight">Example Text with Polish Characters ąćęłńóśźż</span></p>
+        <div class="results">
+            <strong>Expected results:</strong><br>
+            🔤 UPPERCASE: <code>EXAMPLE TEXT WITH POLISH CHARACTERS ĄĆĘŁŃÓŚŹŻ</code><br>
+            🔤 lowercase: <code>example text with polish characters ąćęłńóśźż</code><br>
+            🔤 Title Case: <code>Example Text With Polish Characters Ąćęłńóśźż</code><br>
+            🔤 Sentence case: <code>Example text with polish characters ąćęłńóśźż</code>
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>2. Programming formats test</h2>
+        <p>Select this text: <span class="highlight">My JavaScript Function</span></p>
+        <div class="results">
+            <strong>Expected results:</strong><br>
+            💻 camelCase: <code>myJavaScriptFunction</code><br>
+            💻 PascalCase: <code>MyJavaScriptFunction</code><br>
+            💻 snake_case: <code>my_java_script_function</code><br>
+            💻 kebab-case: <code>my-java-script-function</code><br>
+            💻 CONSTANT_CASE: <code>MY_JAVA_SCRIPT_FUNCTION</code><br>
+            💻 dot.case: <code>my.java.script.function</code>
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>3. Editable field test</h2>
+        <input type="text" value="Test Text in Input Field ąćęłńóśźż" placeholder="Select this text and test">
+        <div class="editable" contenteditable="true">
+            This is an <strong>editable div</strong>. Select this text: <em>Editable Content ąćęłńóśźż</em> and test conversion.
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>🔄 Undo function test</h2>
+        <input type="text" value="Test undo function changes" placeholder="Test undo here">
+        <div class="results">
+            <strong>Instructions:</strong><br>
+            1️⃣ Select the text above<br>
+            2️⃣ Use any conversion<br>
+            3️⃣ Press <code>Ctrl+Z</code> or select "↶ Undo last change"<br>
+            4️⃣ Text should return to original state
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>📋 Instructions</h2>
+        <ol>
+            <li><strong>Select</strong> highlighted text</li>
+            <li><strong>Right-click</strong> (RMB)</li>
+            <li><strong>Choose</strong> "Case Converter Pro"</li>
+            <li><strong>Select</strong> "🔤 Case Conversion" or "💻 For Developers"</li>
+            <li><strong>Test</strong> different conversion options</li>
+        </ol>
+        <p><strong>Good luck!</strong> 🎉</p>
+    </div>
+
+    <script>
+        console.log("Quick test page loaded - ready for extension testing");
+        
+        // Log selections for debugging
+        document.addEventListener('mouseup', () => {
+            const selection = window.getSelection();
+            if (selection.toString().length > 0) {
+                console.log("Selected text:", selection.toString());
+            }
+        });
+
+        // Add visual feedback when text is selected
+        document.addEventListener('selectionchange', () => {
+            const selection = window.getSelection();
+            if (selection.toString().length > 0) {
+                console.log("Selection changed:", selection.toString());
+            }
+        });
+    </script>
+</body>
+</html>
