@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Nazwa rozszerzenia"
+  },
+  "extensionDescription": {
+    "message": "Profesjonalne rozszerzenie Firefox do konwersji wielkości liter i formatów programistycznych z obsługą 7 języków (PL, EN, DE, FR, ES, IT, PT) i zaawansowanymi skrótami klawiszowymi",
+    "description": "Opis rozszerzenia"
+  },
+  "mainMenuTitle": {
+    "message": "Case Converter Pro",
+    "description": "Tytuł głównego menu kontekstowego"
+  },
+  "caseSectionTitle": {
+    "message": "🔤 Zmiana wielkości liter",
+    "description": "Tytuł sekcji zmiany wielkości liter"
+  },
+  "programmingSectionTitle": {
+    "message": "💻 Dla programistów",
+    "description": "Tytuł sekcji programistycznej"
+  },
+  "undoSectionTitle": {
+    "message": "↶ Cofnij ostatnią zmianę",
+    "description": "Opcja cofnięcia ostatniej zmiany"
+  },
+  "upperCase": {
+    "message": "WIELKIE LITERY",
+    "description": "Konwersja na wielkie litery"
+  },
+  "lowerCase": {
+    "message": "małe litery",
+    "description": "Konwersja na małe litery"
+  },
+  "titleCase": {
+    "message": "Każde Słowo Wielką Literą",
+    "description": "Konwersja na tytuł"
+  },
+  "sentenceCase": {
+    "message": "Zdaniowa wielka litera",
+    "description": "Konwersja zdaniowa"
+  },
+  "alternatingCase": {
+    "message": "nApRzEmIeNnE lItErY",
+    "description": "Konwersja naprzemienna"
+  },
+  "inverseCase": {
+    "message": "oDWRÓCONA wIELKOŚĆ",
+    "description": "Odwrócona wielkość liter"
+  },
+  "camelCase": {
+    "message": "camelCase",
+    "description": "Format camelCase"
+  },
+  "pascalCase": {
+    "message": "PascalCase",
+    "description": "Format PascalCase"
+  },
+  "snakeCase": {
+    "message": "snake_case",
+    "description": "Format snake_case"
+  },
+  "kebabCase": {
+    "message": "kebab-case",
+    "description": "Format kebab-case"
+  },
+  "constantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "Format CONSTANT_CASE"
+  },
+  "dotCase": {
+    "message": "dot.case",
+    "description": "Format dot.case"
+  },
+  "notificationSuccess": {
+    "message": "Tekst został przekonwertowany i skopiowany do schowka",
+    "description": "Powiadomienie o sukcesie"
+  },
+  "notificationUndoSuccess": {
+    "message": "Cofnięto ostatnią zmianę",
+    "description": "Powiadomienie o cofnięciu zmiany"
+  },
+  "notificationUndoEmpty": {
+    "message": "Brak zmian do cofnięcia",
+    "description": "Powiadomienie gdy brak zmian do cofnięcia"
+  }
+}

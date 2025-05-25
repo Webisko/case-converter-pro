@@ -1,0 +1,51 @@
+{
+  "name": "case-converter-pro",  "version": "2.3.0",
+  "description": "Profesjonalne rozszerzenie Firefox do konwersji wielkości liter i formatów programistycznych z obsługą 7 języków (PL, EN, DE, FR, ES, IT, PT) i zaawansowanymi skrótami klawiszowymi",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'Building extension...' && echo 'Extension ready for loading in Firefox Developer Edition'",
+    "package": "web-ext build",
+    "start": "web-ext run --firefox=firefoxdeveloperedition",
+    "lint": "web-ext lint"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "case-converter",
+    "text-case",
+    "camelcase",
+    "snake-case",
+    "title-case",
+    "multilingual",
+    "internationalization",
+    "i18n",
+    "polish-characters",
+    "webextension"
+  ],
+  "author": "Firefox Extension Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^8.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "webExt": {
+    "sourceDir": ".",
+    "artifactsDir": "web-ext-artifacts",    "ignoreFiles": [
+      "package.json",
+      "package-lock.json",
+      "node_modules/**",
+      "web-ext-artifacts/**",
+      ".git/**",
+      "*.md",
+      "test.html",
+      "quick-test.html",
+      "test-functions.js"
+    ]
+  }
+}

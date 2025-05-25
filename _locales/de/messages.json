@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Name der Erweiterung"
+  },
+  "extensionDescription": {
+    "message": "Professionelle Firefox-Erweiterung für Groß-/Kleinschreibung und Programmierformate mit Unterstützung für 7 Sprachen (PL, EN, DE, FR, ES, IT, PT) und erweiterten Tastenkombinationen",
+    "description": "Beschreibung der Erweiterung"
+  },
+  "mainMenuTitle": {
+    "message": "Case Converter Pro",
+    "description": "Hauptkontextmenü-Titel"
+  },
+  "caseSectionTitle": {
+    "message": "🔤 Groß-/Kleinschreibung",
+    "description": "Titel der Groß-/Kleinschreibung-Sektion"
+  },
+  "programmingSectionTitle": {
+    "message": "💻 Für Entwickler",
+    "description": "Titel der Entwickler-Sektion"
+  },
+  "undoSectionTitle": {
+    "message": "↶ Letzte Änderung rückgängig",
+    "description": "Option zum Rückgängigmachen der letzten Änderung"
+  },
+  "upperCase": {
+    "message": "GROSSBUCHSTABEN",
+    "description": "In Großbuchstaben umwandeln"
+  },
+  "lowerCase": {
+    "message": "kleinbuchstaben",
+    "description": "In Kleinbuchstaben umwandeln"
+  },
+  "titleCase": {
+    "message": "Titel-Schreibweise",
+    "description": "In Titel-Schreibweise umwandeln"
+  },
+  "sentenceCase": {
+    "message": "Satz-Schreibweise",
+    "description": "In Satz-Schreibweise umwandeln"
+  },
+  "alternatingCase": {
+    "message": "aLtErNiErEnDe ScHrEiBwEiSe",
+    "description": "In alternierende Schreibweise umwandeln"
+  },
+  "inverseCase": {
+    "message": "uMGEKEHRTE sCHREIBWEISE",
+    "description": "Schreibweise umkehren"
+  },
+  "camelCase": {
+    "message": "camelCase",
+    "description": "camelCase-Format"
+  },
+  "pascalCase": {
+    "message": "PascalCase",
+    "description": "PascalCase-Format"
+  },
+  "snakeCase": {
+    "message": "snake_case",
+    "description": "snake_case-Format"
+  },
+  "kebabCase": {
+    "message": "kebab-case",
+    "description": "kebab-case-Format"
+  },
+  "constantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "CONSTANT_CASE-Format"
+  },
+  "dotCase": {
+    "message": "dot.case",
+    "description": "dot.case-Format"
+  },
+  "notificationSuccess": {
+    "message": "Text umgewandelt und in die Zwischenablage kopiert",
+    "description": "Erfolgsbenachrichtigung"
+  },
+  "notificationUndoSuccess": {
+    "message": "Letzte Änderung rückgängig gemacht",
+    "description": "Rückgängig-Erfolgsbenachrichtigung"
+  },
+  "notificationUndoEmpty": {
+    "message": "Keine Änderungen zum Rückgängigmachen",
+    "description": "Keine Änderungen zum Rückgängigmachen Benachrichtigung"
+  }
+}

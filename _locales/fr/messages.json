@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Nom de l'extension"
+  },
+  "extensionDescription": {
+    "message": "Extension Firefox professionnelle pour la conversion de casse et les formats de programmation avec support de 7 langues (PL, EN, DE, FR, ES, IT, PT) et raccourcis clavier avancés",
+    "description": "Description de l'extension"
+  },
+  "mainMenuTitle": {
+    "message": "Case Converter Pro",
+    "description": "Titre du menu contextuel principal"
+  },
+  "caseSectionTitle": {
+    "message": "🔤 Changer la casse",
+    "description": "Titre de la section de changement de casse"
+  },
+  "programmingSectionTitle": {
+    "message": "💻 Pour les développeurs",
+    "description": "Titre de la section programmation"
+  },
+  "undoSectionTitle": {
+    "message": "↶ Annuler le dernier changement",
+    "description": "Option d'annulation du dernier changement"
+  },
+  "upperCase": {
+    "message": "MAJUSCULES",
+    "description": "Convertir en majuscules"
+  },
+  "lowerCase": {
+    "message": "minuscules",
+    "description": "Convertir en minuscules"
+  },
+  "titleCase": {
+    "message": "Casse de titre",
+    "description": "Convertir en casse de titre"
+  },
+  "sentenceCase": {
+    "message": "Casse de phrase",
+    "description": "Convertir en casse de phrase"
+  },
+  "alternatingCase": {
+    "message": "cAsSe AlTeRnÉe",
+    "description": "Convertir en casse alternée"
+  },
+  "inverseCase": {
+    "message": "cASSE iNVERSÉE",
+    "description": "Inverser la casse"
+  },
+  "camelCase": {
+    "message": "camelCase",
+    "description": "Format camelCase"
+  },
+  "pascalCase": {
+    "message": "PascalCase",
+    "description": "Format PascalCase"
+  },
+  "snakeCase": {
+    "message": "snake_case",
+    "description": "Format snake_case"
+  },
+  "kebabCase": {
+    "message": "kebab-case",
+    "description": "Format kebab-case"
+  },
+  "constantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "Format CONSTANT_CASE"
+  },
+  "dotCase": {
+    "message": "dot.case",
+    "description": "Format dot.case"
+  },
+  "notificationSuccess": {
+    "message": "Texte converti et copié dans le presse-papiers",
+    "description": "Notification de succès"
+  },
+  "notificationUndoSuccess": {
+    "message": "Dernier changement annulé",
+    "description": "Notification de succès d'annulation"
+  },
+  "notificationUndoEmpty": {
+    "message": "Aucun changement à annuler",
+    "description": "Notification d'absence de changements à annuler"
+  }
+}

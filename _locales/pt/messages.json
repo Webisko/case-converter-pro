@@ -1,0 +1,82 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Nome da extensão"
+  },
+  "extensionDescription": {
+    "message": "Conversão profissional de maiúsculas e minúsculas e formatos de programação com suporte para 7 idiomas (PL, EN, DE, FR, ES, IT, PT)",
+    "description": "Descrição da extensão"
+  },
+  "menuCaseChange": {
+    "message": "🔤 Alterar maiúsculas",
+    "description": "Menu principal para alteração de maiúsculas"
+  },
+  "menuForDevelopers": {
+    "message": "💻 Para programadores",
+    "description": "Menu principal para programadores"
+  },
+  "menuUndoChange": {
+    "message": "↶ Desfazer última alteração",
+    "description": "Opção do menu para desfazer a última alteração"
+  },
+  "menuUpperCase": {
+    "message": "MAIÚSCULAS",
+    "description": "Converter para maiúsculas"
+  },
+  "menuLowerCase": {
+    "message": "minúsculas",
+    "description": "Converter para minúsculas"
+  },
+  "menuTitleCase": {
+    "message": "Título",
+    "description": "Converter para formato de título"
+  },
+  "menuSentenceCase": {
+    "message": "Frase",
+    "description": "Converter para formato de frase"
+  },
+  "menuAlternatingCase": {
+    "message": "aLtErNaDo",
+    "description": "Converter para formato alternado"
+  },
+  "menuInverseCase": {
+    "message": "iNVERSO",
+    "description": "Converter para formato inverso"
+  },
+  "menuCamelCase": {
+    "message": "camelCase",
+    "description": "Converter para camelCase"
+  },
+  "menuPascalCase": {
+    "message": "PascalCase",
+    "description": "Converter para PascalCase"
+  },
+  "menuSnakeCase": {
+    "message": "snake_case",
+    "description": "Converter para snake_case"
+  },
+  "menuKebabCase": {
+    "message": "kebab-case",
+    "description": "Converter para kebab-case"
+  },
+  "menuConstantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "Converter para CONSTANT_CASE"
+  },
+  "menuDotCase": {
+    "message": "dot.case",
+    "description": "Converter para dot.case"
+  },
+  "notificationSuccess": {
+    "message": "✅ Texto convertido com sucesso!",
+    "description": "Notificação de conversão bem-sucedida"
+  },
+  "notificationUndoSuccess": {
+    "message": "↶ Última alteração desfeita!",
+    "description": "Notificação de desfazer bem-sucedido"
+  },
+  "notificationUndoEmpty": {
+    "message": "❌ Nenhuma alteração para desfazer",
+    "description": "Notificação quando não há alterações para desfazer"
+  }
+}

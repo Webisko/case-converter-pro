@@ -1,0 +1,82 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Nome dell'estensione"
+  },
+  "extensionDescription": {
+    "message": "Conversione professionale di maiuscole e minuscole e formati di programmazione con supporto per 7 lingue (PL, EN, DE, FR, ES, IT, PT)",
+    "description": "Descrizione dell'estensione"
+  },
+  "menuCaseChange": {
+    "message": "🔤 Modifica maiuscole",
+    "description": "Menu principale per la modifica delle maiuscole"
+  },
+  "menuForDevelopers": {
+    "message": "💻 Per sviluppatori",
+    "description": "Menu principale per sviluppatori"
+  },
+  "menuUndoChange": {
+    "message": "↶ Annulla ultima modifica",
+    "description": "Opzione menu per annullare l'ultima modifica"
+  },
+  "menuUpperCase": {
+    "message": "MAIUSCOLO",
+    "description": "Converti in maiuscolo"
+  },
+  "menuLowerCase": {
+    "message": "minuscolo",
+    "description": "Converti in minuscolo"
+  },
+  "menuTitleCase": {
+    "message": "Titolo",
+    "description": "Converti in formato titolo"
+  },
+  "menuSentenceCase": {
+    "message": "Frase",
+    "description": "Converti in formato frase"
+  },
+  "menuAlternatingCase": {
+    "message": "aLtErNaTo",
+    "description": "Converti in formato alternato"
+  },
+  "menuInverseCase": {
+    "message": "iNVERSO",
+    "description": "Converti in formato inverso"
+  },
+  "menuCamelCase": {
+    "message": "camelCase",
+    "description": "Converti in camelCase"
+  },
+  "menuPascalCase": {
+    "message": "PascalCase",
+    "description": "Converti in PascalCase"
+  },
+  "menuSnakeCase": {
+    "message": "snake_case",
+    "description": "Converti in snake_case"
+  },
+  "menuKebabCase": {
+    "message": "kebab-case",
+    "description": "Converti in kebab-case"
+  },
+  "menuConstantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "Converti in CONSTANT_CASE"
+  },
+  "menuDotCase": {
+    "message": "dot.case",
+    "description": "Converti in dot.case"
+  },
+  "notificationSuccess": {
+    "message": "✅ Testo convertito con successo!",
+    "description": "Notifica di conversione riuscita"
+  },
+  "notificationUndoSuccess": {
+    "message": "↶ Ultima modifica annullata!",
+    "description": "Notifica di annullamento riuscito"
+  },
+  "notificationUndoEmpty": {
+    "message": "❌ Nessuna modifica da annullare",
+    "description": "Notifica quando non ci sono modifiche da annullare"
+  }
+}

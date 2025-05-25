@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Extension name"
+  },  "extensionDescription": {
+    "message": "Professional Firefox extension for case conversion and programming formats with support for 7 languages (PL, EN, DE, FR, ES, IT, PT) and enhanced keyboard shortcuts",
+    "description": "Extension description"
+  },
+  "mainMenuTitle": {
+    "message": "Case Converter Pro",
+    "description": "Main context menu title"
+  },
+  "caseSectionTitle": {
+    "message": "🔤 Change Case",
+    "description": "Case conversion section title"
+  },
+  "programmingSectionTitle": {
+    "message": "💻 For Developers",
+    "description": "Programming section title"
+  },
+  "undoSectionTitle": {
+    "message": "↶ Undo Last Change",
+    "description": "Undo last change option"
+  },
+  "upperCase": {
+    "message": "UPPERCASE",
+    "description": "Convert to uppercase"
+  },
+  "lowerCase": {
+    "message": "lowercase",
+    "description": "Convert to lowercase"
+  },
+  "titleCase": {
+    "message": "Title Case",
+    "description": "Convert to title case"
+  },
+  "sentenceCase": {
+    "message": "Sentence case",
+    "description": "Convert to sentence case"
+  },
+  "alternatingCase": {
+    "message": "aLtErNaTiNg CaSe",
+    "description": "Convert to alternating case"
+  },
+  "inverseCase": {
+    "message": "iNVERSE cASE",
+    "description": "Invert case"
+  },
+  "camelCase": {
+    "message": "camelCase",
+    "description": "camelCase format"
+  },
+  "pascalCase": {
+    "message": "PascalCase",
+    "description": "PascalCase format"
+  },
+  "snakeCase": {
+    "message": "snake_case",
+    "description": "snake_case format"
+  },
+  "kebabCase": {
+    "message": "kebab-case",
+    "description": "kebab-case format"
+  },
+  "constantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "CONSTANT_CASE format"
+  },
+  "dotCase": {
+    "message": "dot.case",
+    "description": "dot.case format"
+  },
+  "notificationSuccess": {
+    "message": "Text converted and copied to clipboard",
+    "description": "Success notification"
+  },
+  "notificationUndoSuccess": {
+    "message": "Last change undone",
+    "description": "Undo success notification"
+  },
+  "notificationUndoEmpty": {
+    "message": "No changes to undo",
+    "description": "No changes to undo notification"
+  }
+}

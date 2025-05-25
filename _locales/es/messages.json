@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "Case Converter Pro",
+    "description": "Nombre de la extensión"
+  },
+  "extensionDescription": {
+    "message": "Extensión profesional de Firefox para conversión de mayúsculas y formatos de programación con soporte para 7 idiomas (PL, EN, DE, FR, ES, IT, PT) y atajos de teclado avanzados",
+    "description": "Descripción de la extensión"
+  },
+  "mainMenuTitle": {
+    "message": "Case Converter Pro",
+    "description": "Título del menú contextual principal"
+  },
+  "caseSectionTitle": {
+    "message": "🔤 Cambiar mayúsculas",
+    "description": "Título de la sección de cambio de mayúsculas"
+  },
+  "programmingSectionTitle": {
+    "message": "💻 Para desarrolladores",
+    "description": "Título de la sección de programación"
+  },
+  "undoSectionTitle": {
+    "message": "↶ Deshacer último cambio",
+    "description": "Opción para deshacer el último cambio"
+  },
+  "upperCase": {
+    "message": "MAYÚSCULAS",
+    "description": "Convertir a mayúsculas"
+  },
+  "lowerCase": {
+    "message": "minúsculas",
+    "description": "Convertir a minúsculas"
+  },
+  "titleCase": {
+    "message": "Título de Caso",
+    "description": "Convertir a caso de título"
+  },
+  "sentenceCase": {
+    "message": "Caso de oración",
+    "description": "Convertir a caso de oración"
+  },
+  "alternatingCase": {
+    "message": "cAsO aLtErNaNtE",
+    "description": "Convertir a caso alternante"
+  },
+  "inverseCase": {
+    "message": "cASO iNVERSO",
+    "description": "Invertir mayúsculas y minúsculas"
+  },
+  "camelCase": {
+    "message": "camelCase",
+    "description": "Formato camelCase"
+  },
+  "pascalCase": {
+    "message": "PascalCase",
+    "description": "Formato PascalCase"
+  },
+  "snakeCase": {
+    "message": "snake_case",
+    "description": "Formato snake_case"
+  },
+  "kebabCase": {
+    "message": "kebab-case",
+    "description": "Formato kebab-case"
+  },
+  "constantCase": {
+    "message": "CONSTANT_CASE",
+    "description": "Formato CONSTANT_CASE"
+  },
+  "dotCase": {
+    "message": "dot.case",
+    "description": "Formato dot.case"
+  },
+  "notificationSuccess": {
+    "message": "Texto convertido y copiado al portapapeles",
+    "description": "Notificación de éxito"
+  },
+  "notificationUndoSuccess": {
+    "message": "Último cambio deshecho",
+    "description": "Notificación de éxito al deshacer"
+  },
+  "notificationUndoEmpty": {
+    "message": "No hay cambios que deshacer",
+    "description": "Notificación cuando no hay cambios que deshacer"
+  }
+}
