@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Test - Text Converter Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .language-nav {
+            text-align: center;
+            padding: 10px;
+            background: #f0f8ff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        .test-box {
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            background-color: yellow;
+            padding: 2px 4px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .editable {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            min-height: 50px;
+            background: white;
+        }
+        .results {
+            background: #e8f5e8;
+            border: 1px solid #4CAF50;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }    </style>
+</head>
+<body>
+    <div class="language-nav">
+        📖 <a href="quick-test.html">English Version</a> | 🌍 <strong>Wersja Polska</strong>
+    </div>
+    
+    <h1>🧪 Quick Test - Case Converter Pro v2.3</h1>
+      <div class="test-box">
+        <h2>🆕 Nowe funkcje w wersji 2.3:</h2>
+        <ul>
+            <li>✅ <strong>Zaawansowane skróty klawiszowe</strong> - szybkie konwersje przez Ctrl+Shift/Alt+klawisz</li>
+            <li>✅ <strong>Cykliczne przełączanie formatów</strong> - Ctrl+Shift+F</li>
+            <li>✅ <strong>Inteligentne sugerowanie</strong> - Ctrl+Shift+G</li>
+            <li>✅ <strong>Pomoc dla skrótów</strong> - Ctrl+Shift+H</li>
+            <li>✅ <strong>Wsparcie dla 7 języków</strong> - dodano włoski (IT) i portugalski (PT)</li>
+            <li>✅ <strong>Ulepszone animacje powiadomień</strong> - płynne animacje z dolnego rogu</li>
+        </ul>
+        
+        <h3>⌨️ Nowe skróty klawiszowe:</h3>
+        <div style="background: #f0f8ff; padding: 15px; border-radius: 6px; margin: 10px 0;">
+            <strong>📝 Podstawowe (Ctrl+Shift+...):</strong><br>
+            • U - WIELKIE LITERY | L - małe litery | T - Każde Słowo | S - Zdaniowa<br>
+            • A - nApRzEmIeNnE | I - oDWRóCONE<br><br>
+            
+            <strong>💻 Programistyczne (Ctrl+Alt+...):</strong><br>
+            • C - camelCase | P - PascalCase | N - snake_case<br>
+            • K - kebab-case | O - CONSTANT_CASE | D - dot.case<br><br>
+            
+            <strong>🚀 Specjalne:</strong><br>
+            • Ctrl+Shift+F - Przełączaj formaty | Ctrl+Shift+G - Inteligentne sugerowanie<br>
+            • Ctrl+Shift+H - Pomoc | Ctrl+Z - Cofnij
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>🆕 Wszystkie funkcje (poprzednie wersje):</h2>
+        <ul>
+            <li>✅ <strong>Cofnięcie zmian (Ctrl+Z)</strong> - możliwość cofnięcia do 10 ostatnich konwersji</li>
+            <li>✅ <strong>Wielojęzyczność</strong> - obsługa 7 języków (PL, EN, DE, FR, ES, IT, PT)</li>
+            <li>✅ <strong>Automatyczne wykrywanie języka</strong> - bazuje na ustawieniach przeglądarki</li>
+            <li>✅ <strong>Ulepszone powiadomienia</strong> - zlokalizowane komunikaty w prawym dolnym rogu</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>1. Test podstawowej zmiany wielkości liter</h2>
+        <p>Zaznacz ten tekst: <span class="highlight">Przykładowy Tekst z Polskimi Znakami ąćęłńóśźż</span></p>
+        <div class="results">
+            <strong>Oczekiwane wyniki:</strong><br>
+            🔤 WIELKIE LITERY: <code>PRZYKŁADOWY TEKST Z POLSKIMI ZNAKAMI ĄĆĘŁŃÓŚŹŻ</code><br>
+            🔤 małe litery: <code>przykładowy tekst z polskimi znakami ąćęłńóśźż</code><br>
+            🔤 Każde Słowo: <code>Przykładowy Tekst Z Polskimi Znakami Ąćęłńóśźż</code><br>
+            🔤 Zdaniowa: <code>Przykładowy tekst z polskimi znakami ąćęłńóśźż</code>
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>2. Test formatów programistycznych</h2>
+        <p>Zaznacz ten tekst: <span class="highlight">Moja Funkcja JavaScript</span></p>
+        <div class="results">
+            <strong>Oczekiwane wyniki:</strong><br>
+            💻 camelCase: <code>mojaFunkcjaJavaScript</code><br>
+            💻 PascalCase: <code>MojaFunkcjaJavaScript</code><br>
+            💻 snake_case: <code>moja_funkcja_java_script</code><br>
+            💻 kebab-case: <code>moja-funkcja-java-script</code><br>
+            💻 CONSTANT_CASE: <code>MOJA_FUNKCJA_JAVA_SCRIPT</code><br>
+            💻 dot.case: <code>moja.funkcja.java.script</code>
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>3. Test w polu edytowalnym</h2>
+        <input type="text" value="Test Text w Input Field ąćęłńóśźż" placeholder="Zaznacz ten tekst i przetestuj">
+        <div class="editable" contenteditable="true">
+            To jest <strong>edytowalny div</strong>. Zaznacz ten tekst: <em>Editable Content ąćęłńóśźż</em> i przetestuj konwersję.
+        </div>    </div>
+
+    <div class="test-box">
+        <h2>🔄 Test funkcji cofnięcia</h2>
+        <input type="text" value="Test funkcji cofnięcia zmian" placeholder="Przetestuj tutaj cofnięcie">
+        <div class="results">
+            <strong>Instrukcje:</strong><br>
+            1️⃣ Zaznacz tekst powyżej<br>
+            2️⃣ Użyj dowolnej konwersji<br>
+            3️⃣ Naciśnij <code>Ctrl+Z</code> lub wybierz "↶ Cofnij ostatnią zmianę"<br>
+            4️⃣ Tekst powinien powrócić do stanu pierwotnego
+        </div>
+    </div>
+
+    <div class="test-box">
+        <h2>📋 Instrukcja</h2><ol>
+            <li><strong>Zaznacz</strong> wyróżniony tekst</li>
+            <li><strong>Kliknij PPM</strong> (prawy przycisk myszy)</li>
+            <li><strong>Wybierz</strong> "Case Converter Pro"</li>
+            <li><strong>Wybierz</strong> "🔤 Zmiana wielkości liter" lub "💻 Dla programistów"</li>
+            <li><strong>Przetestuj</strong> różne opcje konwersji</li>
+        </ol>
+        <p><strong>Powodzenia!</strong> 🎉</p>
+    </div>
+
+    <script>
+        console.log("Quick test page loaded - ready for extension testing");
+        
+        // Log selections for debugging
+        document.addEventListener('mouseup', () => {
+            const selection = window.getSelection();
+            if (selection.toString().length > 0) {
+                console.log("Selected text:", selection.toString());
+            }
+        });
+
+        // Add visual feedback when text is selected
+        document.addEventListener('selectionchange', () => {
+            const selection = window.getSelection();
+            if (selection.toString().length > 0) {
+                console.log("Selection changed:", selection.toString());
+            }
+        });
+    </script>
+</body>
+</html>
